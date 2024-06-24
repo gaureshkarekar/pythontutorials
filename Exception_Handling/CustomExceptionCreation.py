@@ -19,7 +19,7 @@ except MyCustomError as e:
     print(f"An error occurred: {e}")
 
 
-#  Urmila's error
+# Urmila's error
 
 class UrmilaError(Exception):
     def __init__(self,msg) :
@@ -33,7 +33,3 @@ try:
     urmilaFunction()
 except UrmilaError as ue:
     print(f"Custom created error occurred as {ue}")
-
-
-
-
